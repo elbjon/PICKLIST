@@ -1,4 +1,8 @@
-﻿Rem Attribute VBA_ModuleType=VBAModule
+'Code is old and parts had to be left out
+'Just part 1
+
+
+Rem Attribute VBA_ModuleType=VBAModule
 Option VBASupport 1
 Global nr, G As Integer
 
