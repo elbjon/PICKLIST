@@ -17,16 +17,18 @@ My solution in three parts:
 2b. UserForm
 3. **Post-processing** of the data for remigrating into the WMS on PC
 
-
 -Packing sequence according to storage location and divided into delivery tours. (2 tours at a time)
+
 -Barcode scan prevents mispicks.
+
 -Information to find the product clearly displayed (storage location, manufacturer, name, weight…).
 
-Issues:
+***Issues:***
 -Rare barcodes other than EAN not processed reliably
 
-
-Nice to add:
--picture of the product to pick (from WMS, ecoinform or DataNatuRE)
+***to add one day:***
+-picture of the product to pick (from WMS, ecoinform or DataNatuRE).
+-standalone solution, not VBA.
+-augmented reality (Google glasses like) to mark product in view.
 
 WMS: BioOffice
