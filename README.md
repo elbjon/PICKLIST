@@ -1,21 +1,18 @@
 # PICKLIST
 Digital pick list, complementing a commercial warehouse management system (WMS). 
-In daily use for over 10 years, now!
+In daily use for 10 years, now!
 
 
-Vegetable delivery service takes over organic food store to expand its assortment. 
-We got only basic paper picklists from the WMS that did not meet our requirements. Neither did the commercial digital solution which even had disadvantages over the paper picklist.
-*Analog* picking from a store rather a warehouse was time-consuming and error-prone. 
+Vegetable delivery service takes over organic food store to expand its assortment. Products have to be picked from shop shelves.
+WMS provided paper picklists, only. Those did not fullfill basic requirements. Neither did the commercial digital solution which even had disadvantages over the paper picklist. *Analog* picking from a shop rather a warehouse was time-consuming and error-prone. Picking staff not used to computers.
 
 
 
 Solution 
 
-My solution in three parts:
 1. Tapping the WMS for the **Data** and preparation of the picklist on PC
-2. **Picking** process on a mobile notebook with barcode scanner attached to a picking trolley
-2b. UserForm
-3. **Post-processing** of the data for remigrating into the WMS on PC
+2. **Picking** process on mobile notebooks with barcode scanners initially attached to picking trolleys
+3. **Post-processing** of the data on PC for updating the WMS
 
 -Packing sequence according to storage location and divided into delivery tours. (2 tours at a time)
 
@@ -26,7 +23,7 @@ My solution in three parts:
 ***Issues:***
 -Rare barcodes other than EAN not processed reliably
 
-***to add one day:***
+***'to add one day':***
 -picture of the product to pick (from WMS, ecoinform or DataNatuRE).
 -standalone solution, not VBA.
 -augmented reality (Google glasses like) to mark product in view.
