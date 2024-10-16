@@ -18,8 +18,6 @@ Sub Zwischenspeichern()
     Exit Sub
 Fehler:
     MsgBox "Automatische Speicherung hat nicht geklappt, wird der USB-Stick erkannt? Ihr könnt einfach weiterarbeiten"
-
-
 End Sub
 
 
@@ -30,14 +28,10 @@ Dim wort, zahl, buchstabe As String
 Dim l As Integer
 Dim j As Integer
 
-
-
-
-
 i = 1
 k = 2
 l = 2 'zeile
-j = 1 'spalte -- wieso nochmal sind die variablen zweifach?
+j = 1 'spalte 
 
 
 Call Spaltensortieren 'Reihenfolge EAN,Menge,Bezeichnung,VkEinheit,Hersteller,Lagerort,Bestand,tournr, WG, SummeVk"
@@ -75,7 +69,7 @@ Else
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 'BNN-Herstellerkürzel werden an dieser Stelle durch Herstellernamen ersetzt
-'Liste beim BNN erhaeltlich
+'Liste beim BNN erhaeltlich. Dieser Codeteil kann nicht veröffentlicht werden.
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
