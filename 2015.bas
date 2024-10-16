@@ -1,5 +1,5 @@
 'Code is old and parts had to be left out
-'Just part 1
+'Just part 1 -> Preparing the extracted data on PC
 
 
 Rem Attribute VBA_ModuleType=VBAModule
